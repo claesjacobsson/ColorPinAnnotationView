@@ -1,0 +1,6 @@
+framework module ColorPinAnnotationView {
+  umbrella header "ColorPinAnnotationView-umbrella.h"
+
+  export *
+  module * { export * }
+}

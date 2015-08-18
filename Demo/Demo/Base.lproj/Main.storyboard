@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZSX-xz-WYE">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="bFg-DB-HsZ">
+            <objects>
+                <viewController id="ZSX-xz-WYE" customClass="ViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gQC-ah-toK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mci-NN-kkW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8TC-TN-co7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iI9-Ak-l4R">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iI9-Ak-l4R" firstAttribute="top" secondItem="8TC-TN-co7" secondAttribute="top" id="7lT-RZ-QTd"/>
+                            <constraint firstAttribute="trailing" secondItem="iI9-Ak-l4R" secondAttribute="trailing" id="blS-Ce-gNe"/>
+                            <constraint firstItem="iI9-Ak-l4R" firstAttribute="bottom" secondItem="Mci-NN-kkW" secondAttribute="top" id="cv7-NK-mGv"/>
+                            <constraint firstItem="iI9-Ak-l4R" firstAttribute="leading" secondItem="8TC-TN-co7" secondAttribute="leading" id="hSP-F8-6NL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="iI9-Ak-l4R" id="spa-fX-tLW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZCG-eY-2cK" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

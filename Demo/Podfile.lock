@@ -1,0 +1,14 @@
+PODS:
+  - ColorPinAnnotationView (1.0.0)
+
+DEPENDENCIES:
+  - ColorPinAnnotationView (from `..`)
+
+EXTERNAL SOURCES:
+  ColorPinAnnotationView:
+    :path: ..
+
+SPEC CHECKSUMS:
+  ColorPinAnnotationView: a111fb501a58c544dc7f2f30294d4ed155e4c0f8
+
+COCOAPODS: 0.38.2
