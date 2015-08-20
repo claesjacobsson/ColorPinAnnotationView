@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name      = "ColorPinAnnotationView"
-  s.version   = "1.0.1"
+  s.version   = "1.0.2"
   s.summary   = "ColorPinAnnotationView can use any UIColor value instead of MKPinAnnotationView's three."
   s.homepage  = "https://github.com/danielsaidi/ColorPinAnnotationView"
   s.license   = "MIT"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/danielsaidi/ColorPinAnnotationView.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/danielsaidi/ColorPinAnnotationView.git", :tag => "1.0.2" }
   s.source_files = "**/*.{swift}"
   s.exclude_files = "Demo"
   s.resource     = "*.xcassets"
