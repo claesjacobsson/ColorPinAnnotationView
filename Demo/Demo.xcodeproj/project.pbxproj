@@ -15,7 +15,6 @@
 		6547CCCD1B83C51A0042C829 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547CCCC1B83C51A0042C829 /* DemoTests.swift */; };
 		6547CCE21B83CC2E0042C829 /* CLLocationCoordinate2D_Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547CCE01B83CC2E0042C829 /* CLLocationCoordinate2D_Random.swift */; };
 		6547CCE31B83CC2E0042C829 /* UIColor_Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547CCE11B83CC2E0042C829 /* UIColor_Random.swift */; };
-		6547CCE51B83CCA40042C829 /* ColorPinAnnotationView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6547CCE41B83CCA40042C829 /* ColorPinAnnotationView.xcassets */; };
 		D6868F5D9D61B620DBBEF8AA /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835C0216C7F2C1DD6B5BE953 /* Pods_Demo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		6547CCCC1B83C51A0042C829 /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
 		6547CCE01B83CC2E0042C829 /* CLLocationCoordinate2D_Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D_Random.swift; sourceTree = "<group>"; };
 		6547CCE11B83CC2E0042C829 /* UIColor_Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_Random.swift; sourceTree = "<group>"; };
-		6547CCE41B83CCA40042C829 /* ColorPinAnnotationView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = ColorPinAnnotationView.xcassets; path = ../../ColorPinAnnotationView.xcassets; sourceTree = "<group>"; };
 		835C0216C7F2C1DD6B5BE953 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		980939664B12A290BEC56FFF /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		E1D2DB5DAF9DD0F1DF814884 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				6547CCB81B83C51A0042C829 /* ViewController.swift */,
 				6547CCBA1B83C51A0042C829 /* Main.storyboard */,
 				6547CCBD1B83C51A0042C829 /* Images.xcassets */,
-				6547CCE41B83CCA40042C829 /* ColorPinAnnotationView.xcassets */,
 				6547CCBF1B83C51A0042C829 /* LaunchScreen.xib */,
 				6547CCDF1B83CC2E0042C829 /* Extensions */,
 				6547CCB41B83C51A0042C829 /* Supporting Files */,
@@ -239,7 +236,6 @@
 				6547CCBC1B83C51A0042C829 /* Main.storyboard in Resources */,
 				6547CCC11B83C51A0042C829 /* LaunchScreen.xib in Resources */,
 				6547CCBE1B83C51A0042C829 /* Images.xcassets in Resources */,
-				6547CCE51B83CCA40042C829 /* ColorPinAnnotationView.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
