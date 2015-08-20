@@ -5,14 +5,29 @@ ColorPinAnnotationView
 ![](https://img.shields.io/cocoapods/p/ColorPinAnnotationView.svg)
 
 ColorPinAnnotationView is an iOS Swift class that can use
-any custom color, instead of the three colors that can be
-used when using the standard MKPinAnnotationView class.
+any custom color, instead of MKPinAnnotationView which is
+limited to three colors.
 
-ColorPinAnnotationView has a pinColor property as well as
-an animatesDrop property, which is enabled by default. It
-looks a little bit different from the default pin, so you
-should use it for every pin in your app, if you decide to
-use it in your project.
+To use the ColorPinAnnotationView class, just return such
+a view whenever your map view asks you for the view for a
+certain annotation, just like you do otherwise.
+
+ColorPinAnnotationView has a pinColor property, which you
+can set to any UIColor value. It also has an animatesDrop
+property, which is tru by default.
+
+
+Important
+---------
+
+For now, you have to add the ColorPinAnnotationView asset
+to your own project. If you don't, your app will crash.
+
+If you add the lib manually, just add the xcasset catalog
+together with the class files.
+
+If you add the lib using the pod, just add a reference to
+the xcasset catalog in the pod folder.
 
 
 Demo
@@ -20,7 +35,8 @@ Demo
 
 The demo project in this repository shows you how you can
 use ColorPinAnnotationView to add pins with random colors
-to the map. 
+to the map. The app adds a bunch of randomly colored pins
+whenever the region changes.
 
 
 CocoaPod
