@@ -63,8 +63,9 @@ public class ColorPinAnnotationView: MKAnnotationView {
             view.removeFromSuperview()
         }
         
-        let body = UIImage(named: "ColorPinBody")
-        let head = UIImage(named: "ColorPinHead")
+        let bundle = NSBundle(forClass: object_getClass(ColorPinAnnotationView))
+        let body = UIImage(named: "ColorPinBody", inBundle: bundle, compatibleWithTraitCollection: nil)
+        let head = UIImage(named: "ColorPinHead", inBundle: bundle, compatibleWithTraitCollection: nil)
         let coloredHead = head!.imageByTintingWithColor(pinColor, andBlendMode: kCGBlendModeScreen)
         
         let offset = 0.5 * body!.size.height - 2
